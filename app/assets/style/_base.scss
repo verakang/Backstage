@@ -1,0 +1,20 @@
+body {
+    font-family: 'Lato', sans-serif !important;
+    color: $text-color-dark;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: $text-color-dark;
+
+    &:hover {
+        color: $main-color;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono&display=swap");
+body {
+  font-family: 'Lato', sans-serif !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  min-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.container {
+  width: 1280px;
+}
+
+aside {
+  width: 296px;
+  height: 100vh;
+  padding-left: 32px;
+  margin-right: 32px;
+}
+
+h1 a {
+  display: block;
+  width: 151px;
+  height: 40px;
+  background-image: url("../images/logo-ANSWER.svg");
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+h1 a:hover {
+  opacity: 0.5;
+}
+
+ul li {
+  margin-bottom: 20px;
+  padding: 3px;
+}
+
+ul li a {
+  font-weight: 700;
+}
+
+ul li a:hover {
+  opacity: 0.5;
+}
+
+ul li span {
+  margin-right: 16px;
+}
+
+.active {
+  color: #198754 !important;
+}
+
+.user {
+  margin-bottom: 32px;
+}
+
+.user .avatar {
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/andychen.jpeg");
+  background-size: cover;
+  background-position: center center;
+  margin-right: 16px;
+}
+
+.user .user-info {
+  margin: 0;
+  padding: 0;
+}
+
+.user .user-info li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.user .user-info .user-name {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.user .user-info .user-mail {
+  font-size: 14px;
+}
+/*# sourceMappingURL=all.css.map */

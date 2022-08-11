@@ -1,0 +1,72 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+aside {
+    min-width: 296px;
+    height: 100vh;
+}
+
+h1 a {
+    display: block;
+    width: 151px;
+    height: 40px;
+    background-image: url('../images/logo-ANSWER.svg');
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.nav {
+    li {
+        margin-bottom: 20px;
+        border-left: 4px solid $bg-color-light;
+
+        &:hover {
+            border-left: 4px solid $main-color;
+        }
+
+        a {
+            font-weight: 700;
+        }
+
+        span {
+            margin-right: 16px;
+            margin-left: 28px;
+        }
+    }
+}
+
+.active {
+    color: $main-color  !important;
+}
+
+.user {
+    .avatar {
+        width: 40px;
+        height: 40px;
+        background-image: url('../images/andychen.jpeg');
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .user-info {
+        .user-name {
+            font-weight: 700;
+        }
+
+        .user-mail a {
+            font-size: 14px;
+            color: $text-color-light;
+
+            &:hover {
+                color: $main-color;
+            }
+        }
+    }
+}
