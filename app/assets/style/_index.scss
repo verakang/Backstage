@@ -132,6 +132,19 @@
     }
 }
 
+.card-admin {
+    li {
+        list-style-position: inside;
+
+        span {
+            display: inline-block;
+            color: $main-color;
+            background-color: $bg-color-light;
+            font-family: 'Roboto Mono', monospace;
+        }
+    }
+}
+
 .admin-user {
     margin-top: -16px;
     margin-bottom: 15px;
@@ -157,12 +170,16 @@
 }
 
 .admin-content {
-    span {
-        display: inline-block;
-        color: $main-color;
-        background-color: $bg-color-light;
-        font-family: 'Roboto Mono', monospace;
-    }
+    // li {
+    //     list-style-position: inside;
+
+    //     span {
+    //         display: inline-block;
+    //         color: $main-color;
+    //         background-color: $bg-color-light;
+    //         font-family: 'Roboto Mono', monospace;
+    //     }
+    // }
 }
 
 .edit-card {
