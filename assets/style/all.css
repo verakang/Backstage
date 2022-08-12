@@ -10212,6 +10212,14 @@ h1 a, .h1 a {
   .card-content button span {
     display: block; }
 
+.card-admin li {
+  list-style-position: inside; }
+  .card-admin li span {
+    display: inline-block;
+    color: #198754;
+    background-color: #F8F9FA;
+    font-family: 'Roboto Mono', monospace; }
+
 .admin-user {
   margin-top: -16px;
   margin-bottom: 15px; }
@@ -10226,12 +10234,6 @@ h1 a, .h1 a {
   .admin-user .admin-info .admin-times {
     font-size: 12px;
     color: #6C757D; }
-
-.admin-content span {
-  display: inline-block;
-  color: #198754;
-  background-color: #F8F9FA;
-  font-family: 'Roboto Mono', monospace; }
 
 .edit-card {
   border-top: 1px solid #CED4DA; }
