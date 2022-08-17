@@ -10081,10 +10081,6 @@ img {
   height: auto;
   vertical-align: middle; }
 
-.container {
-  max-width: 1280px;
-  margin: 0 auto; }
-
 aside {
   min-width: 296px;
   height: 100vh; }
